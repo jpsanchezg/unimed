@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { RouterModule, Routes, Router } from '@angular/router';
 import { Keyboard } from '@capacitor/keyboard';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-login-form',
@@ -11,11 +13,8 @@ export class LoginFormComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  iniciarSesion() {
-    // Aquí puedes agregar el código para validar el inicio de sesión
-
-    // Redirige a la pantalla de bienvenida
-    this.router.navigate(['/tabs']);
+  navigate() {
+    this.router.navigate(['/home'])
   }
 
   ngOnInit() { }
