@@ -80,7 +80,6 @@ class LoginActivity : AppCompatActivity() {
             myRef!!.get().addOnCompleteListener { task ->
                 if (task.isSuccessful()) {
                     if (task.getResult().exists()) {
-                        val usuario: Usuario = task.getResult().getValue(Usuario::class.java)!!
                         val intent = Intent(applicationContext, MainActivity::class.java)
                         startActivity(intent)
                         finish()

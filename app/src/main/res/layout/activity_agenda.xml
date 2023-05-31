@@ -177,7 +177,7 @@
                 android:padding="10dp">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/cancelarBTN"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -186,7 +186,7 @@
                     android:text="Cancelar" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/ReagendarBTN"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"

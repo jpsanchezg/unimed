@@ -103,5 +103,16 @@ class AgendaActivity : AppCompatActivity() {
             binding.horaLayoutv.addView(newTextView)
         }
 
+        binding.cancelarBTN.setOnClickListener(){
+            val intent = Intent(applicationContext, CancelarCitaActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.ReagendarBTN.setOnClickListener(){
+            val intent = Intent(applicationContext, ReagendarActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

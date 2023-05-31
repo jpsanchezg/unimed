@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             if (task.isSuccessful) {
                 val user = task.result.getValue(Usuario::class.java)
                 if (user != null) {
-                    binding.personName.text = "Hola, "+user.nombre
+                    binding.personName.text = "Hola, " + user.nombre
                 }
             } else {
                 Toast.makeText(this, "Error al obtener datos", Toast.LENGTH_SHORT).show()
