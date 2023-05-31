@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.unimed.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_filtros"
+        android:name="com.example.unimed.ui.filtros.FiltrosFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_filtros" />
+
+    <fragment
+        android:id="@+id/navigation_casos"
+        android:name="com.example.unimed.ui.casos.CasosFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_casos" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.unimed.ui.settings.settingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_agenda"
+        android:name="com.example.unimed.ui.agenda.AgendaFragment"
+        android:label="fragment_agenda"
+        tools:layout="@layout/fragment_agenda" />
+</navigation>

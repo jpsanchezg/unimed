@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327262026600",
+    "project_id": "unimed-553c4",
+    "storage_bucket": "unimed-553c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327262026600:android:c21fbdada2fc7510dc74dd",
+        "android_client_info": {
+          "package_name": "com.example.unimed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7QyisrqiMOrvNj4fMTRXd1Pb0-6bXI8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
