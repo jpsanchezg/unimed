@@ -13,6 +13,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat.getDrawable
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.unimed.MostrarArchivo
 import com.example.unimed.R
 import com.example.unimed.databinding.FragmentCasosBinding
 import com.example.unimed.models.Caso
@@ -93,6 +94,9 @@ class CasosFragment : Fragment() {
 
                     newTextView.gravity = Gravity.CENTER
                     binding.casosPersona.addView(newTextView)
+                    newTextView.setOnClickListener{
+                        startActivity(Intent(requireContext(),MostrarArchivo::class.java))
+                    }
                 }
 
             } else {
